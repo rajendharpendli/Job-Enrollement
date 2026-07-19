@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB ENROLLEMENT PORTALA</title>
+    <style>
+        body{
+            font-family:'Courier New', Courier, monospace;
+            padding:10px;
+            background-color:lightblue
+        }
+        div{
+            background-color:lightgrey;
+            width:400px;
+            padding:10px;
+            box-shadow:0 0 10px black;
+             }
+        input, textarea,select{
+            border-radius:10px;
+            font-size:15px;
+            margin:5px;
+        }
+        .button{
+            background-color:black;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div>
+        <h2>JOB ENROLLEMENT</h2>
+        <form>
+            <label>Username</label><br>
+            <input type="text" placeholder="Username"><br>
+
+            <label>Password</label><br>
+            <input type="password"><br>
+
+            <label>Email</label><br>
+            <input type="Email" placeholder="Email"><br>
+
+            <label>About Yourself</label><br>
+            <textarea>Bio</textarea><br>
+
+            <label>Designation</label><br>
+            <select><br>
+                <option value="software Engineering">Software Engineering</option><br>
+                <option value="Mechanical Engineering">Mechanical Engineering</option><br>
+                <option value="computer science">computer science</option><br>
+            </select><br>
+
+            <label>Date</label><br>
+            <input type="Date"><br>
+
+            <label>Your Image</label><br>
+            <input type="file"><br>
+
+            <label>mobile</label><br>
+            <input type="number"><br>
+
+            <label>Programming Language</label><br>
+            <input type="checkbox" value="Beginner">Begineer
+            <input type="checkbox" value="intermediate">intermediate
+            <input type="checkbox" value="Proficient">proficient<br>
+
+            <label>Expertise In</label><br>
+            <input type="radio" name="expertise" value="frontend">Frontend
+            <input type="radio" name="expertise" value="Backend"> Backend
+             <input type="radio" name="expertise" value="Fullstack"> fullstack<br>
+
+             <label>website Url</label><br>
+             <input type="text" placeholder="Your Website"><br>
+
+             <input class="button"type="submit" value="Enroll">
+             <input class="button" type="Reset" value="Reset">
+
+
+        </form>
+    </div>
+    </center>
+</body>
+</html>
